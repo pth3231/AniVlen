@@ -1,6 +1,7 @@
 body {
   background: url('./bg.jpg');
   background-size: cover;
+  height: 100%;
 }
 
 .frame {
@@ -9,11 +10,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .frame .btn-group {
-  min-width: 500px;
   position: relative;
   display: flex;
   flex-direction: column;
